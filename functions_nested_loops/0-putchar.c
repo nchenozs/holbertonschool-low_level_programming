@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char [9] = {'H', 'o', '1', 'b', 'e', 'r', 't', 'o', 'n'};
+	char unistd.h[9] = {'H', 'o', '1', 'b', 'e', 'r', 't', 'o', 'n'};
 	unsigned int c;
 
-	for (c = 0; c < sizeof(holberton); c++)
+	for (c = 0; c < sizeof(unistd.h); c++)
 	{
-		_putchar(holberton[c]);
+		_putchar(unistd.h[c]);
 	}
 _putchar('\n');
 return (0);
