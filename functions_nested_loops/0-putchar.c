@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char holberton[9] = {'H', 'o', '1', 'b', 'e', 'r', 't', 'o', 'n'};
+	char [9] = {'H', 'o', '1', 'b', 'e', 'r', 't', 'o', 'n'};
 	unsigned int c;
 
 	for (c = 0; c < sizeof(holberton); c++)
